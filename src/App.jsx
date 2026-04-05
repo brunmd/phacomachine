@@ -268,10 +268,10 @@ export default function App() {
             </div>
           </Reveal>
           <Reveal delay={0.15} style={{ display: "flex", justifyContent: "center" }}>
-            <img src={DEVICE_IMG} alt="Sophi" style={{ maxHeight: "85vh", width: "auto", maxWidth: "100%", mixBlendMode: mode === "light" ? "multiply" : "normal", filter: mode === "dark" ? "brightness(1.05)" : "drop-shadow(0 24px 64px rgba(0,0,0,0.1))", animation: "heroFloat 7s ease-in-out infinite" }} />
+            <img src={DEVICE_IMG} alt="Sophi" style={{ maxHeight: "85vh", width: "auto", maxWidth: "100%", mixBlendMode: mode === "light" ? "multiply" : "normal", borderRadius: 20, boxShadow: "0 16px 48px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.06)" }} />
           </Reveal>
         </div>
-        <style>{"@keyframes heroFloat{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-10px) rotate(0.3deg)}50%{transform:translateY(-18px) rotate(0deg)}75%{transform:translateY(-8px) rotate(-0.3deg)}}"}</style>
+        <style>{""}</style>
       </section>
 
       {/* ── STATS ── */}
